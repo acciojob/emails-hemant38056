@@ -43,7 +43,7 @@ public class Workspace extends Gmail{
                 LocalTime time1 = current.getStartTime();
                 LocalTime time2 = previous.getEndTime();
                 int flag = time1.compareTo(time2);
-                if(flag >= 0){
+                if(flag > 0){
                     temp++;
                     index = j;
                 }
